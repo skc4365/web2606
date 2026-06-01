@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THEIN AI 인턴 교육 과정</title>
+    <style>
+        #tableContainer {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        #exContainer {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        table {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="tableContainer"></div>
+    <script src="./table.js"></script>
+    <script>
+        // JSON 파일 경로를 지정하여 함수 호출
+        fetchJsonAndCreateTable('./table.json');
+    </script>
+</body>
+
+</html>

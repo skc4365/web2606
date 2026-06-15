@@ -44,8 +44,9 @@ function createTable(tableData) {
     <table border="1" style="border-collapse: collapse; width: 100%; margin: 20px 0;">
       <thead>
         <tr style="background-color: #f2f2f2;">
-          <th style="padding: 12px; text-align: center; font-weight: bold;">이름/GitHub</th>
+          <th style="padding: 12px; text-align: center; font-weight: bold;">이 름/GitHub</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">Java코드</th>
+          <th style="padding: 12px; text-align: center; font-weight: bold;">JSP코드</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">팀프로젝트</th>
         </tr>
       </thead>
@@ -75,6 +76,13 @@ function createTable(tableData) {
           <a href="https://github.com/${githubId}/${item.link1}" target="_blank" 
              style="color: #0066cc; text-decoration: none; font-size: 0.9em;">
             ${item.link1}
+          </a>
+        </td>
+        <td style="padding: 10px; text-align: center;">
+          <strong>${userName}</strong><br>
+          <a href="https://github.com/${githubId}/${item.link2}" target="_blank" 
+             style="color: #0066cc; text-decoration: none; font-size: 0.9em;">
+            ${item.link2}
           </a>
         </td>
         <td style="padding: 10px; text-align: center;">

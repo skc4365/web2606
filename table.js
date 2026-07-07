@@ -105,7 +105,7 @@ function createTable(tableData) {
         </td>
         <td style="padding: 10px; text-align: center;">
           <strong>${userName}</strong><br>
-          <a href="https://github.com/${githubId}/${item.link5}" target="_blank" 
+          <a href="https://${githubId}.github.io/${item.link5}" target="_blank" 
              style="color: #0066cc; text-decoration: none; font-size: 0.9em;">
             ${item.link5}
           </a>

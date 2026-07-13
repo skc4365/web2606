@@ -49,8 +49,9 @@ function createTable(tableData) {
           <th style="padding: 12px; text-align: center; font-weight: bold;">JSP코드</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">JSP_hrd코드</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">React코드</th>
-          <th style="padding: 12px; text-align: center; font-weight: bold;">ReactApp</th>
+          <th style="padding: 12px; text-align: center; font-weight: bold;">ReactApp배포</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">SpringBoot코드</th>
+          <th style="padding: 12px; text-align: center; font-weight: bold;">react_spring코드</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">팀프로젝트</th>
         </tr>
       </thead>
@@ -115,6 +116,13 @@ function createTable(tableData) {
           <a href="https://github.com/${githubId}/${item.link6}" target="_blank" 
              style="color: #0066cc; text-decoration: none; font-size: 0.9em;">
             ${item.link6}
+          </a>
+        </td>
+        <td style="padding: 10px; text-align: center;">
+          <strong>${userName}</strong><br>
+          <a href="https://github.com/${githubId}/${item.link7}" target="_blank" 
+             style="color: #0066cc; text-decoration: none; font-size: 0.9em;">
+            ${item.link7}
           </a>
         </td>
         <td style="padding: 10px; text-align: center;">

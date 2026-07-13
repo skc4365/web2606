@@ -140,7 +140,7 @@ function createTable(tableData) {
       </tbody>
     </table>
     <div style="margin-top: 10px; font-size: 0.9em; color: #666; text-align: center;">
-      총 ${tableData.length}명의 학생 프로젝트
+      총 ${tableData.length-1}명의 학생 프로젝트
     </div>
   `;
 

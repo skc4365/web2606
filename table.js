@@ -130,7 +130,7 @@ function createTable(tableData) {
           <strong>${userName}</strong><br>
           <a href="${item.link8}" target="_blank" 
              style="color: #0066cc; text-decoration: none; font-size: 0.9em;">
-            개발운영문서
+            ${document.title}
           </a>
         </td>
         <td style="padding: 10px; text-align: center;">

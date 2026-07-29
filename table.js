@@ -145,7 +145,7 @@ function createTable(tableData) {
           <strong>${userName}</strong><br>
           <a href="${item.link99}" target="_blank" 
              style="color: #0066cc; text-decoration: none; font-size: 0.9em;">
-            운영서버
+            ${item.link99}
           </a>
         </td>
       </tr>

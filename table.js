@@ -54,7 +54,7 @@ function createTable(tableData) {
           <th style="padding: 12px; text-align: center; font-weight: bold;">react_spring코드</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">개발운영문서</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">팀프로젝트</th>
-          <th style="padding: 12px; text-align: center; font-weight: bold;">배포</th>
+          <th style="padding: 12px; text-align: center; font-weight: bold;">운영서버</th>
         </tr>
       </thead>
       <tbody>

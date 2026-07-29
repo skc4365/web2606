@@ -54,6 +54,7 @@ function createTable(tableData) {
           <th style="padding: 12px; text-align: center; font-weight: bold;">react_spring코드</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">개발운영문서</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">팀프로젝트</th>
+          <th style="padding: 12px; text-align: center; font-weight: bold;">배포</th>
         </tr>
       </thead>
       <tbody>
@@ -135,9 +136,16 @@ function createTable(tableData) {
         </td>
         <td style="padding: 10px; text-align: center;">
           <strong>${userName}</strong><br>
-          <a href="https://github.com/${item.link99}" target="_blank" 
+          <a href="https://github.com/${item.link90}" target="_blank" 
              style="color: #0066cc; text-decoration: none; font-size: 0.9em;">
-            ${item.link99}
+            ${item.link90}
+          </a>
+        </td>
+        <td style="padding: 10px; text-align: center;">
+          <strong>${userName}</strong><br>
+          <a href="${item.link99}" target="_blank" 
+             style="color: #0066cc; text-decoration: none; font-size: 0.9em;">
+            운영서버
           </a>
         </td>
       </tr>
